@@ -11130,4 +11130,21 @@ img {
   max-width: 100%;
 }
 
+.author__thumbnail {
+  border: 1px solid red;
+}
+.author__thumbnail img {
+  border-radius: 50%;
+}
+
+.author__description {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.author__description p {
+  font-weight: 300;
+  line-height: 2;
+}
+
 /*# sourceMappingURL=style.css.map */
