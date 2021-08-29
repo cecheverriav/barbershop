@@ -4,4 +4,17 @@ body {
 }
 img {
     max-width: 100%;
+} 
+
+a {
+    color: $spanish-pink;
+    text-decoration: none;
+
+    &:hover {
+        color: $raisin-black;
+    }
+
+    &:active {
+        color: $platinum;
+    }
 }
