@@ -11147,4 +11147,9 @@ img {
   line-height: 2;
 }
 
+.author__name {
+  font-weight: 300;
+  line-height: 2;
+}
+
 /*# sourceMappingURL=style.css.map */
