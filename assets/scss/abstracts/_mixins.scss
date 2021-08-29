@@ -4,6 +4,12 @@
     justify-content: center;
 }
 
+@mixin center-vertical-flex {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
 @mixin large-breakpoint {
     @media (max-width: $breakpoint-lg) {
         @content;

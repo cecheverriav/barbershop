@@ -11177,13 +11177,21 @@ a:active {
   line-height: 2;
 }
 
+.author__info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .author__name {
   font-weight: 900;
+  padding-left: 12px;
   font-style: italic;
 }
 
 .author__list {
   list-style: none;
+  padding-left: 12px;
 }
 
 /*# sourceMappingURL=style.css.map */
