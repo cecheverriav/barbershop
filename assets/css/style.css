@@ -11163,6 +11163,14 @@ a:active {
   color: #ecbcba;
 }
 
+.author {
+  height: 330px;
+  border-top: 1px solid #d1d1d1;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
 .author__thumbnail img {
   border-radius: 50%;
 }

@@ -1,0 +1,6 @@
+.author {
+    height: 330px;
+    border-top: 1px solid $light-gray;
+
+    @include center-vertical-flex;
+}
