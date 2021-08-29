@@ -11146,7 +11146,7 @@ a:active {
   padding: 1.5rem 0;
 }
 .navbar__logo {
-  width: 75px;
+  width: 4.7rem;
 }
 .navbar__toggler {
   border: none;
@@ -11166,6 +11166,11 @@ a:active {
 .author__thumbnail img {
   border-radius: 50%;
 }
+@media (max-width: 992px) {
+  .author__thumbnail {
+    text-align: center;
+  }
+}
 
 .author__description {
   display: flex;
@@ -11176,11 +11181,21 @@ a:active {
   font-weight: 300;
   line-height: 2;
 }
+@media (max-width: 992px) {
+  .author__description {
+    display: none;
+  }
+}
 
 .author__info {
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+@media (max-width: 992px) {
+  .author__info {
+    text-align: center;
+  }
 }
 
 .author__name {
