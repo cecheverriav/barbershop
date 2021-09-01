@@ -16,7 +16,9 @@
             <a class="navbar-brand" href="#">
                 <img class="navbar__logo" src="assets/images/logo.png" alt="Barbershop">
             </a>
-            <button class="navbar-toggler navbar__toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler navbar__toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
@@ -28,7 +30,8 @@
                         <a class="nav-link navbar__link" href="#">Trabajos</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link navbar__link navbar__link--active" href="#" tabindex="-1" aria-disabled="true">Blog</a>
+                        <a class="nav-link navbar__link navbar__link--active" href="#" tabindex="-1"
+                            aria-disabled="true">Blog</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link navbar__link" href="#" tabindex="-1" aria-disabled="true">Horas</a>
@@ -41,6 +44,55 @@
         </div>
     </nav>
 
+    <!--Header-->
+    <header class="header">
+        <h1>5 formas de cuidar tu corte de cabello</h1>
+        <i class="bi bi-chevron-double-down header__icon"></i>
+
+    </header>
+    <!-- Main -->
+    <main class="post">
+        <div class="container">
+            <!--Date -->
+            <p class="post__date"> 12 de abril de 2018</p>
+
+            <!--content-->
+            <article class="post__content">
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Magni vero earum eveniet corporis quaerat.
+                    Illum, at accusamus tenetur, possimus molestiae debitis magnam similique magni nisi fuga dolor
+                    eligendi voluptas minus?</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora ipsam fuga distinctio quisquam
+                    repellendus pariatur, totam accusantium ea placeat sit omnis aliquid explicabo iusto. Quo ut numquam
+                    laudantium quis neque!</p>
+
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur perspiciatis repellendus vero,
+                    magni quisquam dolor vel soluta minima doloribus ab nisi nostrum aspernatur quae veniam dignissimos
+                    itaque animi autem cupiditate!</p>
+
+                <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem neque doloribus deserunt, provident
+                    magni ipsa. Adipisci aliquam natus pariatur, nam quos, aliquid laborum temporibus iusto dolorem,
+                    libero recusandae quo illo.
+                </p>
+                <p>lorem ipsum dolor sit amet consectetur adipisicing elit. Ab delectus consectetur saepe, sed autem
+                    amet repellendus pariatur nostrum sit. Laudantium <a href="#">
+                        odio hic eos</a> optio, atque eius non modi dolores.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, perferendis quod iste modi,
+                    mollitia dolorem ullam sequi maiores explicabo culpa aspernatur placeat quidem asperiores! Enim nemo
+                    omnis officiis deserunt quae.
+                </p>
+            </article>
+            <!-- Buttons-->
+            <div class="post__buttons-container">
+                <button type="button"
+                    class="btn post__button post__button--hover post__button--focus post__button--small">Compartir</button>
+                <button type="button"
+                    class="btn post__button post__button--hover post__button--focus post__button--medium">Comentar en
+                    Twitter</button>
+            </div>
+
+        </div>
+
+    </main>
     <!--Author-->
     <section class="author">
         <div class="container">
@@ -50,7 +102,7 @@
                     <img src="assets/images/naomi-thai.png" alt="Author">
                 </div>
 
-                <!-- name -->
+                <!--name-->
                 <div class="col-sm-12 col-lg-3 author__info">
                     <h3 class="author__name">Naomi Thai</h3>
                     <ul class="author__list">
@@ -58,17 +110,48 @@
                             <a href="#" class="author__link author__link--hover author__link--active">@Naothai</a>
                         </li>
                         <li>
-                        <a href="#"class="author__link author__link--hover author__link--active">depelos.com</a>
-                    </li>
+                            <a href="#" class="author__link author__link--hover author__link--active">depelos.com</a>
+                        </li>
                     </ul>
                 </div>
                 <!--descrption-->
                 <div class="col-sm-12 col-lg-7 author__description">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio dolor vero, assumenda facere rem totam labore iusto esse quam atque odit cumque voluptatibus, veniam itaque fugiat sunt fuga nostrum.</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus odio dolor vero, assumenda facere
+                        rem totam labore iusto esse quam atque odit cumque voluptatibus, veniam itaque fugiat sunt fuga
+                        nostrum.</p>
                 </div>
             </div>
         </div>
     </section>
+    <!--Pagination-->
+    <section class="pagination">
+        <nav aria-label="Babershop pagination" class="pagination__nav">
+            <ul class="pagination pagination__list">
+                <li class="page-item">
+                    <a class="page-link pagination__link--prev" href="#">Anterior</a>
+                </li>
+
+                <li class="page-item">
+                    <a class="page-link pagination__link" href="#">1</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link pagination__link--active" href="#">2</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link pagination__link" href="#">3</a>
+                </li>
+                <li class="page-item">
+                    <a class="page-link pagination__link--next" href="#">Siguiente</a>
+                </li>
+            </ul>
+        </nav>
+    </section>
+
+    <!--Footer-->
+    <footer class="footer">
+        <img src="assets/images/logo.png" alt="Barbershop">
+
+    </footer>
 </body>
 
 </html>

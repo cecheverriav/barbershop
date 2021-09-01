@@ -6,12 +6,18 @@
 
 // base
 @import 'base/typography';
+@import 'base/icons';
 
 // reset
 @import 'base/reset';
 
 // layout
-@import 'layout/_navigation.scss';
+@import 'layout/navigation';
+@import 'layout/header';
+@import 'layout/article';
+@import 'layout/author';
+@import 'layout/pagination';
+@import 'layout/footer';
 
 // components
 @import 'components/author';
@@ -20,6 +26,7 @@
 @import 'components/author-info';
 @import 'components/author-name';
 @import 'components/author-list';
+@import 'components/button';
 
 // pages
 
